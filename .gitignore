@@ -21,4 +21,5 @@ target
 #.idea/
 __pycache__/
 .env
-gas.csv
+data/*.csv
+data/*.json

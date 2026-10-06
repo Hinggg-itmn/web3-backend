@@ -7,7 +7,7 @@
 import csv
 import sys
 
-path = sys.argv[1] if len(sys.argv) > 1 else "gas.csv"
+path = sys.argv[1] if len(sys.argv) > 1 else "data/gas.csv"
 k = int(sys.argv[2]) if len(sys.argv) > 2 else 5
 
 with open(path) as f:
